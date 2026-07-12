@@ -1,0 +1,16 @@
+
+// Lab Execution Steps //
+
+1. Open a terminal prompt and execute below command to copy the project files into the Spark docker container.
+
+	# docker cp /home/labuser/Project hdp_spark-master:/
+
+2. Login to Spark container and launch a Spark-shell for executing the scala code.
+
+	# docker exec -i -t hdp_spark-master bash
+	# ./spark/bin/spark-shell
+
+3. Open the FitnessTrackerDataJob.txt file present in the Project/Code/ location and execute the code on the Spark shell (scala).
+
+4. Please refer Project videos for step wise execution.
+ 
